@@ -15,12 +15,12 @@ const CourseDetails = () => {
             .then(data => setCourse(data))
 
     }, [id])
-    const handleEnroll = () => { 
-        if(user){
+    const handleEnroll = () => {
+        if (user) {
             saveCourseItem(id);
             navigate("/dashboard/userHome")
         }
-        else{
+        else {
             navigate("/login");
         }
     }
@@ -33,6 +33,21 @@ const CourseDetails = () => {
                 <p>Duration: {course?.duration}</p>
                 <p>Schedule: {course?.schedule}</p>
                 <p>Description: {course?.description}</p>
+                <p>Enrollment Status: {course?.enrollmentStatus}</p>
+                <p>Location: {course?.location}</p>
+                <p>Prerequisites: {course?.prerequisites}</p>
+                <p>Syllabus: {course?.syllabus?.map((list, index)=><div key={index} className="collapse collapse-arrow">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title">
+                            {list.topic}
+                        </div>
+                        <div className="collapse-content">
+                            <p>Content: {list.content}</p>
+                            <p>Weak: {list.week}</p>
+                        </div>
+                    </div>)}
+                    
+                </p>
                 <div className="card-actions justify-end">
                     <button className="btn btn-primary" onClick={handleEnroll}>Enroll</button>
                 </div>

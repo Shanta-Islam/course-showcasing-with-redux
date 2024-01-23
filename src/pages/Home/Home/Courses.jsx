@@ -5,6 +5,7 @@ import { HiOutlineHandThumbUp } from "react-icons/hi2";
 import axios from "axios";
 import { selectUser } from "../../../redux/UserSlice";
 import { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 const Courses = ({ courses }) => {
     const [filter, setFilter] = useState('');
@@ -22,7 +23,7 @@ const Courses = ({ courses }) => {
                 })
         }
         else {
-            console.log('Please Login First');
+            toast.error('Please Login First');
         }
         // console.log(id)
     }
@@ -57,6 +58,7 @@ const Courses = ({ courses }) => {
                 :
                 <div>...loading</div>
             }
+            <Toaster/>
         </div>
     );
 };
