@@ -1,0 +1,265 @@
+[
+    {
+        "name": "Introduction to React Native",
+        "instructor": "John Doe",
+        "description": "Learn the basics of React Native development and build your first mobile app.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://www.simplilearn.com/ice9/free_resources_article_thumb/React_Native_Tutorial.jpg",
+        "duration": "8 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Basic JavaScript knowledge",
+            "Familiarity with React"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to React Native",
+                "content": "Overview of React Native, setting up your development environment."
+            },
+            {
+                "week": 2,
+                "topic": "Building Your First App",
+                "content": "Creating a simple mobile app using React Native components."
+            }
+        ]
+    },
+    {
+        "name": "Advanced JavaScript Concepts",
+        "instructor": "Jane Smith",
+        "description": "Explore advanced concepts in JavaScript programming.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        "duration": "10 weeks",
+        "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Intermediate JavaScript knowledge"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Closures and Scopes",
+                "content": "Understanding closures, lexical scoping, and function scope."
+            },
+            {
+                "week": 2,
+                "topic": "Promises and Async/Await",
+                "content": "Working with asynchronous JavaScript using promises and async/await."
+            }
+        ]
+    },
+    {
+        "name": "Data Science Fundamentals",
+        "instructor": "Emily Johnson",
+        "description": "Learn the fundamentals of data science and analysis.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://manavrachna.edu.in/wp-content/uploads/2022/08/big-data-center-analyzes-data-science-background-presentation-big-data-center-analyzes-data-science-background-159196598.jpg",
+        "duration": "12 weeks",
+        "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Basic knowledge of Python"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to Data Science",
+                "content": "Overview of data science, tools, and applications."
+            },
+            {
+                "week": 2,
+                "topic": "Data Cleaning and Preprocessing",
+                "content": "Cleaning and preprocessing data for analysis."
+            }
+        ]
+    },
+    {
+        "name": "Python Web Development",
+        "instructor": "Chris Williams",
+        "description": "Build web applications using Python and popular frameworks.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://thumbs.dreamstime.com/b/python-logo-icon-vector-logos-logo-icons-set-social-media-flat-banner-vectors-svg-eps-jpg-jpeg-emblem-wallpaper-background-python-208329675.jpg",
+        "duration": "10 weeks",
+        "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Basic Python knowledge"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to Web Development",
+                "content": "Overview of web development, setting up a development environment."
+            },
+            {
+                "week": 2,
+                "topic": "Building a Simple Web App",
+                "content": "Creating a basic web application using Python and a web framework."
+            }
+        ]
+    },
+    {
+        "name": "Machine Learning Essentials",
+        "instructor": "Alex Turner",
+        "description": "Explore the fundamentals of machine learning and predictive modeling.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://img.freepik.com/premium-photo/future-artificial-intelligence-robot-cyborg_31965-6980.jpg",
+        "duration": "14 weeks",
+        "schedule": "Wednesdays and Fridays, 6:30 PM - 8:30 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Intermediate Python knowledge",
+            "Basic statistics"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to Machine Learning",
+                "content": "Overview of machine learning concepts, types, and applications."
+            },
+            {
+                "week": 2,
+                "topic": "Supervised Learning",
+                "content": "Understanding and implementing supervised learning algorithms."
+            }
+        ]
+    },
+    {
+        "name": "Mobile App Design",
+        "instructor": "Sophia Lee",
+        "description": "Learn principles and techniques for designing effective mobile applications.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://img.freepik.com/free-vector/mobile-apps-concept-illustration_114360-690.jpg",
+        "duration": "10 weeks",
+        "schedule": "Tuesdays and Thursdays, 5:30 PM - 7:30 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Basic design knowledge"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "User Interface Design",
+                "content": "Fundamentals of designing user interfaces for mobile applications."
+            },
+            {
+                "week": 2,
+                "topic": "User Experience (UX) Design",
+                "content": "Creating positive user experiences in mobile app design."
+            }
+        ]
+    },
+    {
+        "name": "Ethical Hacking and Cybersecurity",
+        "instructor": "Ryan Carter",
+        "description": "Learn ethical hacking techniques and enhance your cybersecurity skills.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://t4.ftcdn.net/jpg/02/05/93/21/360_F_205932110_IWiDmketVT703mNPZ8eSn76Sa25QoSYw.jpg",
+        "duration": "12 weeks",
+        "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Basic knowledge of networking"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to Ethical Hacking",
+                "content": "Overview of ethical hacking, legal considerations, and tools."
+            },
+            {
+                "week": 2,
+                "topic": "Network Security",
+                "content": "Securing networks and identifying vulnerabilities."
+            }
+        ]
+    },
+    {
+        "name": "Blockchain Fundamentals",
+        "instructor": "Olivia Brown",
+        "description": "Explore the basics of blockchain technology and its applications.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://img.freepik.com/premium-photo/blockchain-technology-with-abstract-background-blockchain-inscription-abstract-technology-cube-3d-render_120871-987.jpg",
+        "duration": "10 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Basic understanding of cryptography"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to Blockchain",
+                "content": "Understanding the principles and components of blockchain."
+            },
+            {
+                "week": 2,
+                "topic": "Smart Contracts",
+                "content": "Creating and deploying smart contracts on blockchain platforms."
+            }
+        ]
+    },
+    {
+        "name": "Artificial Intelligence: Theory and Applications",
+        "instructor": "Ethan Adams",
+        "description": "Explore the theoretical foundations and practical applications of artificial intelligence.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://img.freepik.com/free-photo/person-using-ai-tool-job_23-2150714247.jpg",
+        "duration": "16 weeks",
+        "schedule": "Wednesdays and Fridays, 5:00 PM - 7:00 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Intermediate knowledge of Python",
+            "Basic understanding of machine learning"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to AI",
+                "content": "Overview of artificial intelligence, history, and key concepts."
+            },
+            {
+                "week": 2,
+                "topic": "Machine Learning Algorithms",
+                "content": "Understanding and implementing various machine learning algorithms."
+            }
+        ]
+    },
+    {
+        "name": "Digital Marketing Strategies",
+        "instructor": "Isabella Miller",
+        "description": "Learn effective digital marketing strategies for businesses and brands.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://st2.depositphotos.com/4428871/7728/i/450/depositphotos_77280356-stock-photo-digital-marketing.jpg",
+        "duration": "8 weeks",
+        "schedule": "Mondays and Thursdays, 6:30 PM - 8:30 PM",
+        "location": "Online",
+        "upVote": 0,
+        "prerequisites": [
+            "Basic understanding of marketing concepts"
+        ],
+        "syllabus": [
+            {
+                "week": 1,
+                "topic": "Introduction to Digital Marketing",
+                "content": "Overview of digital marketing channels and strategies."
+            },
+            {
+                "week": 2,
+                "topic": "Search Engine Optimization (SEO)",
+                "content": "Optimizing content for search engines and improving website ranking."
+            }
+        ]
+    }
+]
